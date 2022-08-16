@@ -10,9 +10,9 @@ function getColor(status) {
    return 'gray';
   }
   if (status === 'inProgress') {
-   return 'green';
+   return 'blue';
   }
-  return 'red';
+  return 'green';
  }
 
 export default function Board() {
